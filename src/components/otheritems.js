@@ -51,9 +51,9 @@ const OtherItems = ({ addToCart }) => {
         />
         <select value={filter} onChange={(e) => setFilter(e.target.value)}>
           <option value="All">All</option>
-          <option value="Oil">Packaging</option>
-          <option value="spices">Custom</option>
-          <option value="Cosmetics">Accessories</option>
+          <option value="Oil">Oil</option>
+          <option value="spices">spices</option>
+          <option value="Cosmetics">Cosmetics</option>
         </select>
       </div>
       <div className="product-list">

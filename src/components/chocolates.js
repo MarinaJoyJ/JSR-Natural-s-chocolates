@@ -55,7 +55,7 @@ const Chocolates = ({ addToCart }) => {
           <option value="Dark">Dark</option>
           <option value="Milk">Milk</option>
           <option value="White">White</option>
-          <option value="Candy">White</option>
+          <option value="Candy">Candy</option>
         </select>
       </div>
       <div className="product-list">
