@@ -2,22 +2,22 @@ import React, { useState } from "react";
 
 
 const otherItems = [
-  { id: 1, name: "Eucalyptus Oil", price: "$15", image: "o1.jpg", category: "oil" },
-  { id: 2, name: "Pain Oil", price: "$20", image: "o2.jpg", category: "oil" },
-  { id: 3, name: "Olive Oil", price: "$15", image: "o5.jpg", category: "oil"},
-  { id: 4, name: "Almond Oil", price: "$20", image: "o6.jpg", category: "oil" },
-  { id: 5, name: "Eucalyptus Balm", price: "$15", image: "o3.jpg", category: "oil" },
-  { id: 6, name: "Pain Balm", price: "$20", image: "o4.jpg", category: "oil" },
-  { id: 7, name: "Rose Water", price: "$15", image: "o7.jpg", category: "cosmetics" },
-  { id: 8, name: "Herbal Hair Oil Mix", price: "$20", image: "o8.jpg", category: "cosmetics" },
-  { id: 9, name: "Honey", price: "$15", image: "o9.jpg", category: "spices" },
-  { id: 10, name: "Aloe vera Gel", price: "$20", image: "o10.jpg", category: "cosmetics" },
-  { id: 11, name: "Sandal Powder", price: "$15", image: "o11.jpg", category: "cosmetics" },
-  { id: 12, name: "Red Sandal Powder", price: "$20", image: "o12.jpg", category: "cosmetics" },
-  { id: 13, name: "Multhani Mitti", price: "$15", image: "o13.jpg", category: "cosmetics" },
-  { id: 14, name: "Rose Beauty Soap", price: "$20", image: "o14.jpg", category: "cosmetics" },
-  { id: 15, name: "Lavander Beauty Soap", price: "$15", image: "o15.jpg", category: "cosmetics" },
-  { id: 16, name: "Thulasi Herbal Soap", price: "$20", image: "o16.jpg", category: "cosmetics" },
+  { id: 1, name: "Eucalyptus Oil", price: "$15", image: "/o1.jpg", category: "oil" },
+  { id: 2, name: "Pain Oil", price: "$20", image: "/o2.jpg", category: "oil" },
+  { id: 3, name: "Olive Oil", price: "$15", image: "/o5.jpg", category: "oil"},
+  { id: 4, name: "Almond Oil", price: "$20", image: "/o6.jpg", category: "oil" },
+  { id: 5, name: "Eucalyptus Balm", price: "$15", image: "/o3.jpg", category: "oil" },
+  { id: 6, name: "Pain Balm", price: "$20", image: "/o4.jpg", category: "oil" },
+  { id: 7, name: "Rose Water", price: "$15", image: "/o7.jpg", category: "cosmetics" },
+  { id: 8, name: "Herbal Hair Oil Mix", price: "$20", image: "/o8.jpg", category: "cosmetics" },
+  { id: 9, name: "Honey", price: "$15", image: "/o9.jpg", category: "spices" },
+  { id: 10, name: "Aloe vera Gel", price: "$20", image: "/o10.jpg", category: "cosmetics" },
+  { id: 11, name: "Sandal Powder", price: "$15", image: "/o11.jpg", category: "cosmetics" },
+  { id: 12, name: "Red Sandal Powder", price: "$20", image: "/o12.jpg", category: "cosmetics" },
+  { id: 13, name: "Multhani Mitti", price: "$15", image: "/o13.jpg", category: "cosmetics" },
+  { id: 14, name: "Rose Beauty Soap", price: "$20", image: "/o14.jpg", category: "cosmetics" },
+  { id: 15, name: "Lavander Beauty Soap", price: "$15", image: "/o15.jpg", category: "cosmetics" },
+  { id: 16, name: "Thulasi Herbal Soap", price: "$20", image: "/o16.jpg", category: "cosmetics" },
 ];
 
 const OtherItems = ({ addToCart }) => {

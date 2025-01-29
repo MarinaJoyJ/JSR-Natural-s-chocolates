@@ -46,7 +46,7 @@ const Contact = () => {
         ></textarea>
         <button type="submit">Send</button>
       </form>
-      <img src="cardimg.jpg" alt="card" className="cardimg"></img>
+      <img src="/cardimg.jpg" alt="card" className="cardimg"></img>
     </div>
   );
 };
