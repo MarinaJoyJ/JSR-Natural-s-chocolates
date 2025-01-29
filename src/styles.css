@@ -1,0 +1,339 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fdf4ed;
+}
+
+nav {
+  background-color: chocolate; 
+  /*background-image:url(navbgimg.jpg); 
+  background-size: cover;
+      background-repeat: no-repeat;*/
+    text-shadow: 1px 1px 0px rgb(0, 0, 0);
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+nav ul li a:hover{
+color: rgb(116, 56, 0);
+text-shadow:1px 1px 1px #fdf4ed;
+}
+
+.logo{
+  width: 10%;
+}
+.hamburger {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: white;
+  cursor: pointer;
+}
+.name{
+  text-align: center;
+  font-size: 2.5em;
+  text-shadow: 1px 1px 0px black;
+}
+.homeimg {width: 100%;
+
+}  
+   .home { 
+    background-image: url("./chocolatebg.jpg"); 
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    color: white; 
+    text-shadow: 1px 1px 0px rgb(0, 0, 0); 
+   } 
+.para{width: 40%;
+  float: right; 
+  /* margin-left: auto;
+    margin-right: 0; */
+  }
+.shopimg{ width: 50%;
+  margin-left: 10px;
+    border: 1px solid #070300;
+    border-radius: 10px; 
+  }
+  .pandimg{overflow: scroll;
+
+  }
+
+   
+  
+  /* Footer Styles */
+.footer {
+  background-color: chocolate;
+  color: white;
+  padding: 20px 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-section {
+  margin: 15px;
+}
+
+.footer-section h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin: 5px 0;
+}
+
+.footer-section ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+  text-decoration: underline;
+
+}
+
+.footer-section p {
+  margin: 5px 0;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #ffcc00;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  border-top: 1px solid #fff;
+  padding-top: 10px;
+}
+
+.footer-bottom p {
+  font-size: 14px;
+}
+
+
+/* Chocolates.css */
+.products {
+  padding: 20px;
+}
+.product-card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+.product-card:hover {
+  transform: scale(1.05);
+}
+.add-to-cart {
+  background-color: #984819;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.add-to-cart:hover {
+  background-color: #4e2e18;
+}
+.quantity-controls button {
+  background-color: #ddd;
+  border: none;
+  padding: 5px 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+.cart {
+  padding: 20px;
+}
+.cart-item {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+.cart-item img {
+  width: 100px;
+  margin-right: 20px;
+}
+.item-details {
+  flex-grow: 1;
+}
+.buy-now {
+  background-color: #ff6600;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.buy-now:hover {
+  background-color: #261002;
+}
+
+
+
+/*------------ */
+.search-filter {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.pagination button {
+  margin: 0 5px;
+  padding: 5px 10px;
+}
+.pagination button.active {
+  background-color: #993335;
+  color: white;
+}
+.product-card {
+  border: 1px solid #873e3e;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  width: 150px;
+ }
+ 
+ .product-card img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  transition: transform .2s;
+ }
+ .product-card img:hover{
+  
+ transform: scale(1.2);
+ }
+ .cardimg{
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  form input, form textarea, form button {
+    display: block;
+    width: 95%;
+    margin: 10px 0;
+    padding: 10px;
+   }
+   
+   .product-list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+   }
+   
+
+@media screen and (max-width:768px) { 
+  nav{
+      align-content: space-around; 
+      flex-wrap: wrap;
+ } 
+ nav ul {
+  margin: auto;
+  padding: inherit;
+ }
+ .logo{
+ width: 15%;
+}
+.shopimg{width: 40%;}
+.para {width: 55%;
+ }
+} 
+@media screen and (max-width:480px ){
+nav{
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+}  
+nav ul {flex-direction: column;}
+.logo{
+ width: 30%;
+}
+.para{width: 90%;
+margin: 5%;
+ text-align: justify;
+ }
+.shopimg{ width: 90%;
+    margin: 5%;      
+}
+
+.products, .about, .contact {
+ padding: 20px;
+}
+
+
+/* @media (max-width: 768px) { */
+  .hamburger {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: #6b4226;
+    border: 1px solid #8c5734;
+    padding: 10px;
+    border-radius: 10px;
+  }
+    .nav-links.open {
+    display: flex;
+  }
+.nav-links a {
+  padding: 10px 0 ;
+}
+  .name {font-size: 2em;}
+
+}
