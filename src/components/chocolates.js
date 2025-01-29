@@ -10,7 +10,7 @@ const chocolates = [
   { id: 7, name: "Strawbery Filling", price: "$10", image: "/c7.jpg", category: "" },
   { id: 8, name: "Blueberry Filling", price: "$10", image: "/c8.jpg", category: "oil" },
   { id: 9, name: "Chocolate Crunchs", price: "$10", image: "/c9.jpg", category: "White" },
-  { id: 10, name: "Mixed Chocolate", price: "$10", image: "/c10.jpg", category: "Dark" },
+  { id: 10, name: "Mixed Chocolate", price: "$10", image: "https://raw.githubusercontent.com/MarinaJoyJ/JSR-Natural-s-chocolates/refs/heads/main/c10.jpg", category: "Dark" },
   { id: 11, name: "Filling Chocolate", price: "$10", image: "/c11.jpg", category: "Milk" },
   { id: 12, name: "Chocolate Filling", price: "$10", image: "/c12.jpg", category: "Milk" },
   { id: 13, name: "Lolipop", price: "$10", image: "/c13.jpg", category: "Candy" },
