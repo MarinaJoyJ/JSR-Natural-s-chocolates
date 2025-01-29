@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "//marinajoyj.github.io/JSR-Natural-s-chocolates/static/css/main.b880a536.css",
-    "main.js": "//marinajoyj.github.io/JSR-Natural-s-chocolates/static/js/main.34df7ef0.js",
-    "static/js/453.0f4552a2.chunk.js": "//marinajoyj.github.io/JSR-Natural-s-chocolates/static/js/453.0f4552a2.chunk.js",
-    "static/media/chocolatebg.jpg": "//marinajoyj.github.io/JSR-Natural-s-chocolates/static/media/chocolatebg.dd3605a656dd88b5909d.jpg",
-    "index.html": "//marinajoyj.github.io/JSR-Natural-s-chocolates/index.html",
-    "main.b880a536.css.map": "//marinajoyj.github.io/JSR-Natural-s-chocolates/static/css/main.b880a536.css.map",
-    "main.34df7ef0.js.map": "//marinajoyj.github.io/JSR-Natural-s-chocolates/static/js/main.34df7ef0.js.map",
-    "453.0f4552a2.chunk.js.map": "//marinajoyj.github.io/JSR-Natural-s-chocolates/static/js/453.0f4552a2.chunk.js.map"
+    "main.css": "/JSR-Natural-s-chocolates/static/css/main.4e4fbb03.css",
+    "main.js": "/JSR-Natural-s-chocolates/static/js/main.bcfc443a.js",
+    "static/js/453.0f4552a2.chunk.js": "/JSR-Natural-s-chocolates/static/js/453.0f4552a2.chunk.js",
+    "static/media/chocolatebg.jpg": "/JSR-Natural-s-chocolates/static/media/chocolatebg.dd3605a656dd88b5909d.jpg",
+    "index.html": "/JSR-Natural-s-chocolates/index.html",
+    "main.4e4fbb03.css.map": "/JSR-Natural-s-chocolates/static/css/main.4e4fbb03.css.map",
+    "main.bcfc443a.js.map": "/JSR-Natural-s-chocolates/static/js/main.bcfc443a.js.map",
+    "453.0f4552a2.chunk.js.map": "/JSR-Natural-s-chocolates/static/js/453.0f4552a2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b880a536.css",
-    "static/js/main.34df7ef0.js"
+    "static/css/main.4e4fbb03.css",
+    "static/js/main.bcfc443a.js"
   ]
 }
