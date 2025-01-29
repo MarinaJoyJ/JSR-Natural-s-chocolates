@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 const chocolates = [
   { id: 1, name: "Almond Rich", price: "$10", image: "c1.jpg", category: "Dark" },
-  { id: 2, name: "White Rich", price: "$8", image: "c2.jpg", category: "White" },
+  { id: 2, name: "White Rich", price: "$8", image: "public/c1.jpg", category: "White" },
   { id: 3, name: "Milk Crunch", price: "$9", image: "c3.jpg", category: "Milk" },
   { id: 4, name: "Roasted Cashew", price: "$10", image: "c4.jpg", category: "Milk" },
   { id: 5, name: "Roasted Almond", price: "$10", image: "c5.jpg", category: "Dark" },
