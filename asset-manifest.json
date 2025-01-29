@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/MarinaJoyJ/JSR-Natural-s-chocolates.git/static/css/main.a2d464fb.css",
+    "main.js": "/MarinaJoyJ/JSR-Natural-s-chocolates.git/static/js/main.4bc8947b.js",
+    "static/js/453.0f4552a2.chunk.js": "/MarinaJoyJ/JSR-Natural-s-chocolates.git/static/js/453.0f4552a2.chunk.js",
+    "static/media/chocolatebg.jpg": "/MarinaJoyJ/JSR-Natural-s-chocolates.git/static/media/chocolatebg.dd3605a656dd88b5909d.jpg",
+    "index.html": "/MarinaJoyJ/JSR-Natural-s-chocolates.git/index.html",
+    "main.a2d464fb.css.map": "/MarinaJoyJ/JSR-Natural-s-chocolates.git/static/css/main.a2d464fb.css.map",
+    "main.4bc8947b.js.map": "/MarinaJoyJ/JSR-Natural-s-chocolates.git/static/js/main.4bc8947b.js.map",
+    "453.0f4552a2.chunk.js.map": "/MarinaJoyJ/JSR-Natural-s-chocolates.git/static/js/453.0f4552a2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a2d464fb.css",
+    "static/js/main.4bc8947b.js"
+  ]
+}
