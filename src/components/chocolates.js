@@ -59,7 +59,7 @@ const Chocolates = ({ addToCart }) => {
         </select>
       </div>
       <div className="product-list">
-        {paginatedChocolates.map((chocolate) => (
+        {paginatedChocolates.map((chocolates) => (
           <div key={chocolates.id} className="product-card">
             <img src={chocolates.image} alt={chocolates.name} />
             <h3>{chocolates.name}</h3>
