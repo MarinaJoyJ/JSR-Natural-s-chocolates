@@ -59,14 +59,14 @@ const Chocolates = ({ addToCart }) => {
         </select>
       </div>
       <div className="product-list">
-        {paginatedChocolates.map((chocolates) => (
-          <div key={chocolates.id} className="product-card">
-            <img src={chocolates.image} alt={chocolates.name} />
-            <h3>{chocolates.name}</h3>
-            <p>{chocolates.price}</p>
+        {paginatedChocolates.map((chocolate) => (
+          <div key={chocolate.id} className="product-card">
+            <img src={chocolate.image} alt={chocolate.name} />
+            <h3>{chocolate.name}</h3>
+            <p>{chocolate.price}</p>
             <button
               className="add-to-cart"
-              onClick={() => addToCart(chocolates, 1)}
+              onClick={() => addToCart(chocolate, 1)}
             >
               Add to Cart
             </button>
